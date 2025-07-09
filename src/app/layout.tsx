@@ -13,11 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Uma nova forma de se conectar comigo - Lofy",
-  description: "Mude completamente a forma de se comunicar com quem você ama!",
+  title: process.env.NEXT_PUBLIC_TITLE,
+  description: process.env.NEXT_PUBLIC_DESCRIPTION,
   openGraph: {
-    title: "Uma nova forma de se conectar comigo - Lofy",
-    description: "Mude completamente a forma de se comunicar com quem você ama!",
+    title: process.env.NEXT_PUBLIC_TITLE,
+    description: process.env.NEXT_PUBLIC_DESCRIPTION,
     images: [
       {
         url: '/opengraph-image.png',
